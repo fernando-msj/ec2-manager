@@ -119,9 +119,7 @@ Running at: ${mainInstance.PublicDnsName}`
                     );
                     return;
                   }
-                  console.log(
-                    `Updated values in ${HOST_NAME_FILE_PATH} successfully`
-                  );
+                  console.log(`Updated values in ${HOST_NAME_FILE_PATH}`);
                 }
               );
 

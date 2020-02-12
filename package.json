@@ -1,7 +1,15 @@
 {
   "name": "aws-manager",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js --start",
+    "stop": "node index.js --stop"
+  },
   "dependencies": {
-    "aws-sdk": "^2.615.0"
+    "aws-sdk": "^2.615.0",
+    "ssh-config": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0"
   }
 }

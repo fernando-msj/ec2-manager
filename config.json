@@ -1,0 +1,6 @@
+{
+  "POLL_INTERVAL": 1000,
+  "MAX_POOL_REQUESTS": 50,
+  "SSH_CONFIG_PATH": "~/.ssh/config",
+  "HOST_NAME_FILE_PATH": "~/ec2host"
+}
